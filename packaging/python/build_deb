@@ -1,3 +1,0 @@
-#!/bin/bash
-
-http_proxy='' https_proxy='' ftp_proxy='' socks_proxy='' python3 setup.py --command-packages=stdeb.command bdist_deb
