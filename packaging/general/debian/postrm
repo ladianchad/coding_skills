@@ -1,0 +1,3 @@
+#!/bin/bash
+## POST REMOVE STEP
+echo -e "\033[0;31mPost remove step.\033[0m"
