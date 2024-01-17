@@ -1,0 +1,36 @@
+.DeviceInfo{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.DeviceInfo .header{
+  width: 100%;
+  height: 10%;
+  background-color: black;
+  align-items: center;
+  display: flex;
+}
+
+.DeviceInfo .header .Id{
+  width: auto;
+  height: auto;
+  font-size: 30px;
+  color: aliceblue;
+  margin: 20px;
+}
+
+.DeviceInfo .header .IdInput{
+  width: auto;
+  height: auto;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.DeviceInfo .header .show{
+  width: auto;
+  height: auto;
+  font-size: 28px;
+  margin: 20px;
+  background-color: aliceblue;
+}

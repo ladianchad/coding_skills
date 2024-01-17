@@ -1,0 +1,23 @@
+.DeviceSmallContainer{
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+  border: 2px;
+  border-radius: 10px;
+  margin: 20px;
+  float: left;
+}
+
+.DeviceSmallContainer .id{
+  font-size: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.DeviceSmallContainer .data{
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,14 @@
+.MainContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;  
+  overflow: hidden;
+}
+
+.MainContainer .Index{
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  background-color: darkorange;
+}
+

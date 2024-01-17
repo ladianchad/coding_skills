@@ -1,0 +1,64 @@
+.Index{
+  position:fixed;
+  width: 10%;
+  height: 100%;
+  background-color: darkorange;
+}
+
+.IndexItem-true{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  background-color:tomato;
+  color: aliceblue;
+}
+
+.IndexItem-false{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  background-color:darkorange;
+  color: aliceblue;
+}
+
+.Index .header{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 23px;
+  text-align: center;
+  margin: 0;
+  background-color: chocolate;
+  color: aliceblue;
+}
+
+.Index .footer{
+  width: 100%;
+  height: 70px;
+  bottom: 0px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 23px;
+  text-align: center;
+  margin: 0;
+  background-color: chocolate;
+  color: aliceblue;
+}
