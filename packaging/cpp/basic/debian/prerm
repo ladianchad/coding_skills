@@ -1,0 +1,3 @@
+#!/bin/bash
+## PRE REMOVE STEP
+echo -e "\033[0;35mPre remove step.\033[0m"

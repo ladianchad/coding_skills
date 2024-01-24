@@ -1,0 +1,10 @@
+Source: dpkg-cpp-advanced-example
+Priority: optional
+Maintainer: ladianchad
+Build-Depends: build-essential, debhelper (>= 9)
+
+Package: dpkg-cpp-advanced-example
+Description: dpkg cpp advanced example
+Homepage: https://github.com/ladianchad
+Architecture: arm64
+Depends: wget
