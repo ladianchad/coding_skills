@@ -18,13 +18,13 @@ endif()
 include(FetchContent)
 
 FetchContent_Declare(magic_enum
-    GIT_REPOSITORY    https://github.com/Neargye/magic_enum.git
-    SOURCE_DIR        ${CMAKE_CURRENT_SOURCE_DIR}/third_party/magic_enum
+  GIT_REPOSITORY    https://github.com/Neargye/magic_enum.git
+  SOURCE_DIR        ${CMAKE_CURRENT_SOURCE_DIR}/third_party/magic_enum
 )
 
 FetchContent_Declare(glog
-    GIT_REPOSITORY    https://github.com/google/glog.git
-    SOURCE_DIR        ${CMAKE_CURRENT_SOURCE_DIR}/third_party/glog
+  GIT_REPOSITORY    https://github.com/google/glog.git
+  SOURCE_DIR        ${CMAKE_CURRENT_SOURCE_DIR}/third_party/glog
 )
 FetchContent_MakeAvailable(glog magic_enum)
 
