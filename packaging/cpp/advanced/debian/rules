@@ -1,4 +1,55 @@
 #!/usr/bin/make -f
 
 %:
+	$(info "given args : $@")
 	dh $@
+
+override_dh_clean:
+	$(info "Overried dh_clean.")
+	dh_clean
+
+override_dh_auto_configure:
+	$(info "Overried dh_auto_configure")
+	dh_auto_configure
+
+override_dh_auto_build:
+	$(info "Overried dh_auto_build")
+	dh_auto_build
+
+override_dh_auto_test:
+	$(info "Overried dh_auto_test")
+	dh_auto_test
+
+override_dh_auto_install:
+	$(info "Overried dh_auto_install")
+	dh_auto_install
+
+override_dh_installdocs:
+	$(info "Overried dh_installdocs")
+	dh_installdocs
+
+override_dh_compress:
+	$(info "Overried dh_compress")
+	dh_compress
+
+override_dh_missing:
+	$(info "Overried dh_missing")
+	dh_missing
+
+override_dh_strip:
+	$(info "Overried dh_strip")
+	dh_strip
+
+override_dh_makeshlibs:
+	$(info "Overried dh_strip")
+	dh_makeshlibs
+
+override_dh_shlibdeps:
+	$(info "Overried dh_shlibdeps")
+	dh_shlibdeps
+
+override_dh_installdeb:
+	$(info "Overried dh_installdeb")
+	dh_installdeb
+
+	

@@ -16,6 +16,7 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 include(FetchContent)
+
 FetchContent_Declare(magic_enum
     GIT_REPOSITORY    https://github.com/Neargye/magic_enum.git
     SOURCE_DIR        ${CMAKE_CURRENT_SOURCE_DIR}/third_party/magic_enum
