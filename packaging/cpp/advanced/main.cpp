@@ -6,6 +6,8 @@
 int main(int argc, char const * argv[])
 {
   google::InitGoogleLogging(argv[0]);
+  FLAGS_logtostdout = true;
+  FLAGS_colorlogtostdout = true;
   enum Test {
     ONE =1 ,
     TWO = 2,
