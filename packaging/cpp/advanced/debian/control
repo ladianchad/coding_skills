@@ -4,6 +4,7 @@ Maintainer: ladianchad
 Build-Depends: build-essential, debhelper (>= 9)
 
 Package: dpkg-cpp-advanced-example
+Version: 1.0.0
 Description: dpkg cpp advanced example
 Homepage: https://github.com/ladianchad
 Architecture: arm64
